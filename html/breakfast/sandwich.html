@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Testibite</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top"> 
+        <div class="container-fluid">
+          <a class="navbar-brand me-auto" href="#">Recipe.Book</a>
+          
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Logo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2 active" aria-current="page" href="/html/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/html/index.html#cake1">Cakes</a></li>
+                    <li><a class="dropdown-item" href="/html/index.html#breakfast1">Breakfast</a></li>
+                    <li><a class="dropdown-item" href="/html/index.html#soup1">Soup</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link mx-lg-2" href="/html/about.html">About us</a>
+                </li>
+                <li class="nav-item mx-lg-2">
+                    <a class="nav-link" href="/html/index.html#contact-form">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a href="" class="login-button">Login</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+    </nav>
+<!-- Navbar End -->
+    <main>
+        <div class="container-fluid cake">
+            <img src="/Images/breakfast/sandwich.png" alt="" class="img-fluid">
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <h3 class="display-4">Sandwich</h3>
+                <p class="fs-5 py-4">Sandwiches can be breakfast, lunch, dinner, or snacks. They adapt to various fillings, bread types, and condiments, making them a convenient and customizable meal. </p>
+                <div class="col-md-6">
+                    <h4 class="pb-4">Instructions:</h4>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Prep Vegetables: Wash and slice the vegetables thinly.</li>
+                        <li class="list-group-item">Butter Bread: Spread butter on one side of each bread slice.</li>
+                        <li class="list-group-item">Assemble: Place cheese slices on the buttered side of half the bread slices.</li>
+                        <li class="list-group-item">Add Vegetables: Layer the sliced vegetables on top of the cheese.</li>
+                        <li class="list-group-item">Season: Sprinkle a pinch of black pepper powder for flavor.</li>
+                        <li class="list-group-item">Mayonnaise: Spread mayonnaise on the other half of the bread slices.</li>
+                        <li class="list-group-item">Create Sandwiches: Place the mayonnaise-covered slices on top of the vegetable and cheese-covered slices, creating sandwiches.</li>
+                    </ol>
+                </div>
+                <div class="col-md-6">
+                  <h4 class="pb-4">Ingredients:</h4>
+                  <ol class="list-group list-group-numbered">
+                    <li class="list-group-item">Bread Slices: Choose your preferred type of bread.</li>
+                    <li class="list-group-item">Vegetables: Use a mix of vegetables like tomatoes, cucumbers, bell peppers, and lettuce.</li>
+                    <li class="list-group-item">Cheese Slices: Add your favorite cheese for a delicious melt..</li>
+                    <li class="list-group-item">Mayonnaise: Enhance the flavor with mayonnaise.</li>
+                    <li class="list-group-item">Butter: For toasting or spreading on bread.</li>
+                    <li class="list-group-item">Black Pepper Powder: Add a pinch for a hint of spice.</li>
+                  </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light mt-2" >
+        <div class="container-fluid p-5">
+          <div class="row">
+            <h3 class="">Good cooking is done with passion,<br> creativity, and love.</h3>
+            <div class="col-md-7">
+              <ul class="d-flex mt-5">
+                <li><a href="/html/index.html" class="text-decoration-none text-white">Home</a></li>
+                <li class="nav-item dropdown text-decoration-none text-white">
+                  <a class="nav-link dropdown-toggle text-decoration-none text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/html/index.html#cake1">Cakes</a></li>
+                    <li><a class="dropdown-item" href="/html/index.html#breakfast1">Breakfast</a></li>
+                    <li><a class="dropdown-item" href="/html/index.html#soup1">Soup</a></li>
+                  </ul>
+                </li>
+                <li><a href="/html/about.html" class="text-decoration-none text-white">About us</a></li>
+                <li><a href="/html/index.html#contact-form" class="text-decoration-none text-white">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <div class="d-flex justify-content-end">
+                <a href="facebook.com"><i class="bi bi-facebook fs-2 text-light mx-2"></i></a>
+                <a href="linkedin.com"><i class="bi bi-linkedin fs-2 text-light mx-2"></i></a>
+                <a href="whatsapp.com"><i class="bi bi-whatsapp fs-2 text-light mx-2"></i></a>
+                <a href="instagram.com"><i class="bi bi-instagram fs-2 text-light mx-2"></i></a>
+              </div>
+            </div>
+          </div><hr>
+          <div class="container">
+            <p>Recipe.Book &copy; 2024 All Right Reserved</p>
+          </div>
+        </div>
+      </footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
